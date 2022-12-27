@@ -8,7 +8,7 @@ class Animal(val name: String)
 
 class Zoo(val animals: List<Animal>) {
 
-    operator fun iterator(): Iterator<Animal> {             // 1
+    operator fun iterator(): Iterator<Animal> {             // 1 cria dentro da classe zoo a capacidade dela ser iterada
         return animals.iterator()                           // 2
     }
 }
