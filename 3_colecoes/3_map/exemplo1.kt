@@ -3,7 +3,7 @@
  *
  * @see [Map](https://play.kotlinlang.org/byExample/05_Collections/03_Map)
  */
-
+//mapOf() imutavel, mutableMapOf() mutavel
 const val POINTS_X_PASS: Int = 15
 val EZPassAccounts: MutableMap<Int, Int> = mutableMapOf(1 to 100, 2 to 100, 3 to 100)   // 1
 val EZPassReport: Map<Int, Int> = EZPassAccounts                                        // 2
