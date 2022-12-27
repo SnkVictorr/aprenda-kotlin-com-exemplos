@@ -3,7 +3,7 @@
  *
  * @see [map](https://play.kotlinlang.org/byExample/05_Collections/04_map)
  */
-
+//Usado para fazer transformações nos elementos
 fun main() {
 
     val numbers = listOf(1, -2, 3, -4, 5, -6)     // 1
