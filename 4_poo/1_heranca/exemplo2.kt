@@ -9,7 +9,7 @@ open class Tiger(val origin: String) {
         println("A tiger from $origin says: grrhhh!")
     }
 }
-
+//SiberianTiger é um Tiger Com origin = Siberia
 class SiberianTiger : Tiger("Siberia")                  // 1
 
 fun main() {
