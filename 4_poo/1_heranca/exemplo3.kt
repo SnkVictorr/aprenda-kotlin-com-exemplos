@@ -10,9 +10,9 @@ open class Lion(val name: String, val origin: String) {
     }
 }
 
-class Asiatic(name: String) : Lion(name = name, origin = "India") // 1
+class Asiatic(name: String) : Lion(name = name, origin = "India") // 1 classe herda o Rufo como nome, e herda a origin como ïndia
 
 fun main() {
-    val lion: Lion = Asiatic("Rufo")                              // 2
+    val lion: Lion = Asiatic("Rufo")  //  PAssando Rufo para a open class                          // 2
     lion.sayHello()
 }
