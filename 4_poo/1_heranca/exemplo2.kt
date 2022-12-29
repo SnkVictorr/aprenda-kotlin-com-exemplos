@@ -14,5 +14,5 @@ class SiberianTiger : Tiger("Siberia")                  // 1
 
 fun main() {
     val tiger: Tiger = SiberianTiger()
-    tiger.sayHello()
+    tiger.sayHello() //acessando a função dentro da class Tiger
 }
