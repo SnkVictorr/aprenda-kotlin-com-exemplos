@@ -3,7 +3,7 @@
  *
  * @see [with](https://play.kotlinlang.org/byExample/06_scope_functions/03_with)
  */
-
+//usa this ao inves it
 data class Configuration(val host: String, val port: Int) 
 
 fun main() {
@@ -12,6 +12,9 @@ fun main() {
     with(configuration) {
         println("$host:$port")
     }
+    //aleternative:
+    configuration.run {
+        println("$host:$port")
 
     // ao invés de:
     println("${configuration.host}:${configuration.port}")    
