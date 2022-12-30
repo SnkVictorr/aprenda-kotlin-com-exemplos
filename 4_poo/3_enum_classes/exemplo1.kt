@@ -4,6 +4,7 @@
  * @see [Enum Classes](https://play.kotlinlang.org/byExample/03_special_classes/02_Enum)
  */
 
+//normalmente usado pra mostrar o estado de loading, erro, etc
 enum class State {
     IDLE, RUNNING, FINISHED                           // 1
 }
