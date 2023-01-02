@@ -7,13 +7,13 @@
 import kotlinx.coroutines.*
 
 
-fun main() = runBlocking {
+fun main() = runBlocking { //runblocking é necessario para  que a coroutine funcione
     doWorld()
 }
-
+//executar elementos assincronos, (em tempos diferentes)
 suspend fun doWorld() = coroutineScope {
-    launch {
-        delay(1000L)
+    launch { //launch construtor de coroutine
+        delay(1000L) // delay de 1 segundo
         println("World!")
     }
     print("Hello ")
