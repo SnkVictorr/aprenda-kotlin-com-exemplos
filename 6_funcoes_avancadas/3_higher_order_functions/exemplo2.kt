@@ -5,12 +5,12 @@
  */
 
 fun operation(): (Int) -> Int {                                     // 1
-    return ::square
+    return ::square //o retorno de uma função sendo uma execuçã ode uma outra
 }
 
-fun square(x: Int) = x * x                                          // 2
+fun square(x: Int) = x * x     //recebe 2 como parametro e executa a multiplicacao                                     // 2
 
 fun main() {
     val func = operation()                                          // 3
-    println(func(2))                                                // 4
+    println(func(2))               //passando 2 como parametro                                 // 4
 }
